@@ -1,10 +1,32 @@
 # Battery SoH Prediction
 
-This repository contains the code for my undergraduate thesis. The project aims to estimate the State of Health of batteries using machine learning models. The project uses two datasets, `Nasa` and `Calce`, and four different regressors: `Random Forest`, `XGBoost`, `LightGBM`, and `Catboost`.
+This repository contains the code for my undergraduate thesis titled "Enhancing Battery State of Health Estimation\\[0.4cm] using Machine Learning Techniques". 
+
+## Project Overview
+
+The project aims to estimate the State of Health of batteries using ensemble models. The project uses two datasets, `Nasa` and `Calce`, and four different regressors: `Random Forest`, `XGBoost`, `LightGBM`, and `Catboost`.
 
 ## Datasets
 
 The `Nasa` and `Calce` folders under `Data & Outputs` contain the datasets used in this project. Each folder contains processed CSV files and raw data files.
+
+- Nasa Dataset: [Link](https://www.nasa.gov/intelligent-systems-division/discovery-and-systems-health/pcoe/pcoe-data-set-repository/)
+- Calce Dataset: [Link](https://github.com/konkon3249/BatteryLifePrediction/tree/master)
+
+## Methodology
+
+The project follows these steps:
+
+1. **Exploratory Data Analysis (EDA)**: Understanding the data by visualizing it.
+2. **Feature Engineering & Prerprocessing**: Creating Features and Data preprocessing for later use.
+2. **Feature Selection**: Selecting the most relevant features for the predictive model. 
+3. **Modeling**: Training predictive models to predict customer churn.
+4. **Hyperparameter Tuning**: Optimizing the model hyperparameters for better performance. 
+
+## Project Structure
+
+- `Scripts/`: Contains the main codes for the project.
+- `Data & Outputs/`: Stores both the processed and original datasets, and outputs.
 
 ## Scripts
 
@@ -15,10 +37,6 @@ The `Scripts` folder contains Jupyter notebooks for different stages of the proj
 - `Hyperparameter_Optimization.ipynb`: Hyperparameter Tuning
 - `Performance_Evaluation.ipynb`: Model Performance Evaluation
 - `Plot_Predictions.ipynb`: Plotting Predictions
-
-## Outputs
-
-The `CAT`, `LGBM`, `RF`, and `XGB` folders under each dataset folder contain the outputs of the corresponding regressor for that dataset.
 
 ## Usage
 
