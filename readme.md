@@ -1,6 +1,6 @@
 # Battery SoH Prediction
 
-This repository contains the code for my undergraduate thesis titled "Enhancing Battery State of Health Estimation\\[0.4cm] using Machine Learning Techniques". 
+This repository contains the code for my undergraduate thesis titled "Enhancing Battery State of Health Estimation using Machine Learning Techniques". 
 
 ## Project Overview
 
